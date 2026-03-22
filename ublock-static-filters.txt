@@ -1,0 +1,8 @@
+! // google AI Mode search tab
+google.com## div[aria-label="Show more AI Overview"]:upward(10):remove()
+
+! // duckduckgo AI Mode search assist
+duckduckgo.com## button[aria-label="Expand Duck.ai chat input"]:upward(10):remove()
+
+! // remove banner on thunderstore recommending to download it's mod manager
+thunderstore.io## div[id="get-app-alert"]:remove()
