@@ -6,3 +6,9 @@ duckduckgo.com## button[aria-label="Expand Duck.ai chat input"]:upward(10):remov
 
 ! // remove banner on thunderstore recommending to download it's mod manager
 thunderstore.io## div[id="get-app-alert"]:remove()
+
+! // remove dumb AI chatbot on youtube home page
+youtube.com## yt-talk-to-recs-view-model:remove()
+
+! // remove twitch featured content on home page
+twitch.tv## div[class="featured-content-carousel__wrapper"]:upward(1):remove()
